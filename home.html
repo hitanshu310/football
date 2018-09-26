@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<title>OneFootball</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+    
+    .navbar{
+    top: 0;
+    position:relative;
+}
+ul {
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+}
+
+li {
+    float: left;
+    font-size: 20px;
+    
+}
+
+li:last-child {
+    border-right: none;
+    font-size: 20px;
+}
+
+li a , .dropbtn {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: green;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: green;
+}
+.active {
+    background-color: #4CAF50;
+}
+            
+            li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+}
+    
+  h1,h4{
+     color: white;
+     
+ }
+    .pp{
+        padding-left: 20px;
+        background-image: url(bg.jpg);
+    }
+    
+    
+    
+    .q-box {
+    width:1360px;
+    padding: 10px;
+    border: 5px;
+    margin: 0;
+    background-color: #33ff33;
+    color: white;
+    align-content: center;
+    font-size: 40px;
+}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+    
+    
+    
+    
+    
+     <div class="navbar">    
+  <ul>
+   <li><a  href="index.html">OneFootball</a></li>
+  <li><a class="active" href="home.html">Home</a></li>
+  <li><a href="news.html">News</a></li>
+  <li><a href="contact.html">Contact Us</a></li>
+  <li><a href="about.html">About Us</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Gallery</a>
+    <div class="dropdown-content">
+      <a href="images.html">Images</a>
+      <a href="videos.html">Videos</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Football</a>
+    <div class="dropdown-content">
+      <a href="teams.html">Teams</a>
+      <a href="players.html">Players</a>
+    </div>
+  </li>
+  <li style="float:right"><a href="login.html">Login</a></li>
+  <li style="float:right"><a href="signup.html">Sign Up</a></li>
+  </ul>
+   </div>
+    
+    
+    <!-- Sidebar/menu -->
+    
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left pp" style="z-index:3;width:300px;" id="mySidebar"><br>
+       <div class="pp">
+    <h1><b>Popular Pages</b></h1s>
+  
+   
+    <img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/5c0492f67c1c9b13fc9260f8bb1ac0fb/5B905120/t51.2885-19/s150x150/20902831_477206115986842_7005605501073358848_a.jpg" style="width:45%;" class="w3-round"><br><br>
+    
+    <img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/28b720a18dbb4b8c5f340b2c28d96b03/5B8352FC/t51.2885-19/s150x150/18878914_230158997486952_7078420478234198016_a.jpg" style="width:45%;" class="w3-round"><br><br>
+    
+    <img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/bfb02735b85d4e2d5ef13fbae4bec81d/5B76A9D7/t51.2885-19/s150x150/29740363_519054611821891_4082499704863064064_n.jpg" style="width:45%;" class="w3-round"><br><br>
+    
+    <img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/f55e417ecf36c41c1be9057f64e41507/5B76BDC7/t51.2885-19/s150x150/26869289_1755158991182652_2640219630685126656_n.jpg" style="width:45%;" class="w3-round"><br><br>
+    
+    <img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/ee5e3c3ddd91f534fd08b1aaf01454c0/5B63AA7D/t51.2885-19/s150x150/23967107_1781046015534035_6402181403647148032_n.jpg" style="width:45%;" class="w3-round"><br><br>
+    
+    <img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/4b9fd37759c0390153140047ea87cc32/5B815CEB/t51.2885-19/s150x150/19120497_137699173459975_8227449668729044992_a.jpg" style="width:45%;" class="w3-round"><br><br>
+    
+  </div>
+</nav>
+    
+    
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container"><br>
+    <h1><b>Welcome to OneFootball</b></h1>
+            <h1><b>We tell the world's football stories</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Filter:</span> 
+      <button class="w3-button w3-black">ALL</button>
+      <button class="w3-button w3-white"></i>Top Stories</button>
+      <button class="w3-button w3-white w3-hide-small">Latest</button>
+      <button class="w3-button w3-white w3-hide-small"></i>Trending</button>
+    </div>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://image-service.onefootball.com/resize?fit=max&image=http%3A%2F%2Fimages.performgroup.com%2Fdi%2Flibrary%2Fomnisport%2F77%2F2e%2Fbarca-cropped_srktes8u2vwq1fr4umxf5sd7e.jpg%3Ft%3D354926635&q=25&w=1080"  style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Valverde wishes Barca title win had not relegated Deportivo</b></p>
+        <p>Ernesto Valverde saw his Barcelona side secure the title on Sunday, but it came at the cost of Deportivo La Coruna's top-flight status.
+
+Barcelona coach Ernesto Valverde regrets that his side's clinching of the Spanish title ultimately resulted in the relegation of their hosts Deportivo La Coruna on Sunday.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://image-service.onefootball.com/resize?fit=max&image=http%3A%2F%2Fimages.performgroup.com%2Fdi%2Flibrary%2Fomnisport%2F96%2F30%2Fedinson-cavani-cropped_hf4416rraxup1sb411264zhcj.jpg%3Ft%3D101593570&q=25&w=1080"  style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>I'm happy here – Cavani in no rush to leave PSG</b></p>
+        <p>Paris Saint-Germain's title charge has been helped massive by Edinson Cavani this term and the prolific Uruguayan is eager to stick around.
+
+Edinson Cavani is in no rush to leave Paris Saint-Germain and expects to stay for the foreseeable future.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="https://image-service.onefootball.com/resize?fit=max&image=http%3A%2F%2Fimages.performgroup.com%2Fdi%2Flibrary%2Fomnisport%2F42%2Fc0%2Fdavidvilla-cropped_1dg9op1zdfzj71nezo3lna8pt5.jpg%3Ft%3D348748275&q=25&w=1080"  style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>David Villa hungry for more after 400-goal milestone</b></p>
+        <p>David Villa became the sixth active player to score 400 career goals but the 36-year-old forward wants more.
+
+Former Barcelona and Atletico Madrid forward David Villa has no plans to slow down, with the New York City star hungry for more goals after joining the 400 club on Sunday.</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://image-service.onefootball.com/resize?fit=max&image=http%3A%2F%2Fimages.performgroup.com%2Fdi%2Flibrary%2Fomnisport%2F51%2F78%2Farjenrobben-cropped_g0emdcsva75x1j3jaarrxn4vr.jpg%3Ft%3D-33488302&q=25&w=1080" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Injured Robben out of squad for Real Madrid trip</b></p>
+        <p>Bayern Munich travel to Real Madrid chasing a 2-1 deficit in the Champions League and they will be without Arjen Robben.
+
+Arjen Robben has been left out of Bayern Munich's squad for Tuesday's Champions League semi-final second leg against Real Madrid due to adductor problems.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://image-service.onefootball.com/resize?fit=max&image=http%3A%2F%2Fimages.performgroup.com%2Fdi%2Flibrary%2Fomnisport%2F38%2F78%2Ftrentalexander-arnold-cropped_1e4cj5hn2lnfl1p5mqkd7my7g7.jpg%3Ft%3D347359147&q=25&w=1080" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Liverpool ready for intimidating Stadio Olimpico – Alexander-Arnold</b></p>
+        <p>Trent Alexander-Arnold said Liverpool were prepared for a difficult atmosphere against Roma.
+
+Liverpool teenager Trent Alexander-Arnold insisted his team were ready for an intimidating atmosphere at the Stadio Olimpico when they face Roma.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="https://image-service.onefootball.com/resize?fit=max&image=http%3A%2F%2Fimages.performgroup.com%2Fdi%2Flibrary%2Fomnisport%2Fde%2F93%2Fjurgenklopp-cropped_8pxda8488n8e1mj3tdht9gjtl.jpg%3Ft%3D332522699&q=25&w=1080" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>There have been 10 or 11 situations – Klopp surprised by lack of penalties</b></p>
+        <p>Jurgen Klopp is surprised by the lack of penalties awarded to Liverpool in the Premier League.
+
+Liverpool manager Jurgen Klopp believes his team have been denied "10 or 11 situations" for possible penalties this season.</p>
+      </div>
+    </div>
+  </div>
+    
+    
+    <!--Third Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://image-service.onefootball.com/resize?fit=max&image=http%3A%2F%2Fimages.performgroup.com%2Fdi%2Flibrary%2Fomnisport%2F58%2F62%2Fronaldo-lewandowski-cropped_1to7limejzsj710ulzsn85bapq.jpg%3Ft%3D-484620918&q=25&w=1080" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Rummenigge blasts 'ridiculous' Lewandowski criticism</b></p>
+        <p>Robert Lewandowski has been accused of losing focus since getting linked with Real Madrid, but Bayern Munich say all is well with him.
+
+Bayern Munich chief executive Karl-Heinz Rummenigge has branded criticism of Robert Lewandowski's recent performances as "ridiculous" and is adamant he will still be at the club next season.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://images.performgroup.com/di/library/GOAL/12/8b/roberto-firmino-liverpool-swansea_1for3zq06523d17vq8xznoht3f.jpg?t=-1812705712&quality=100" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Goals, assists and still underrated – Firmino's Liverpool career in Opta numbers</b></p>
+        <p>Liverpool forward Roberto Firmino was rewarded for his strong campaign with a new deal by the Premier League giants.
+
+Underrated and often outshone, forward Roberto Firmino is enjoying his best campaign yet at Liverpool.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="https://image-service.onefootball.com/resize?fit=max&image=http%3A%2F%2Fimages.performgroup.com%2Fdi%2Flibrary%2Fomnisport%2F8a%2F98%2Fmeyer-cropped_t7zv2ojqdpd214lltn15pdnek.jpg%3Ft%3D359484275&q=25&w=1080" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Departing Meyer makes 'bullying' claim against Schalke</b></p>
+        <p>Schalke's sporting director Christian Heidel is the reason Max Meyer has decided to leave the club, not a desire to earn more money.
+
+Max Meyer's time at Schalke is coming to an ugly end after the young midfielder accused people of "bullying" him and revealed sporting director mak is the reason he is leaving.
+    </div>
+  </div>
+<br><br>
+<br>
+<br>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black" style="color:white">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button" style="color:white">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black " style="color:white">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black" style="color:white">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black " style="color:white">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black" style="color:white">»</a>
+    </div>
+  </div>
+
+</div>
+
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+</footer>
+      
+
+</body>
+</html>

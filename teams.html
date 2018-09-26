@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>OneFootball</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+.navbar{
+    top: 0;
+    position:relative;
+}
+ul {
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+}
+
+li {
+    float: left;
+    font-size: 20px;
+    
+}
+
+li:last-child {
+    border-right: none;
+    font-size: 20px;
+}
+
+li a , .dropbtn {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: green;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: green;
+}
+.active {
+    background-color: #4CAF50;
+}
+            
+            li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+}
+
+            
+
+    
+.q-box {
+    width:1360px;
+    padding: 10px;
+    border: 5px;
+    margin: 0;
+    background-color: #33ff33;
+    color: white;
+    align-content: center;
+    font-size: 40px;
+}
+            
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+    display: block;
+}
+        
+            
+            
+        body{
+            background-attachment: fixed;
+            margin: 0px;
+            background-repeat: no-repeat;
+            background-size: cover;
+                background-image: url(T.jpg);
+            }
+        
+        .data{
+            margin:2% 2%;
+            max-height: 33%;
+        }
+        .players{
+            
+            margin:2%;
+            overflow-x: auto;
+            border: 1px solid white;
+        }
+        table{
+            position: static;
+        }
+        .data .players a img{
+            border-radius: 100px;
+            margin: 20px;
+        }
+        .type{
+            width: auto;
+            margin: 0;
+            padding: 20px;
+            font-family: 'Oswald', sans-serif;
+            color: white;
+        }
+        
+        img:hover{
+            filter: grayscale(75%);
+            border: solid 2px white;
+        }
+        img{
+            animation-name: hovered;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes hovered{
+            from{transform:rotateY(0deg);}
+            to{transform: rotateY(360deg);}
+        }
+</style>
+    </head>
+    
+    <body>
+    <div class="navbar">    
+  <ul>
+   <li><a  href="index.html">OneFootball</a></li>
+  <li><a  href="home.html">Home</a></li>
+  <li><a href="news.html">News</a></li>
+  <li><a href="contact.html">Contact Us</a></li>
+  <li><a href="about.html">About</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Gallery</a>
+    <div class="dropdown-content">
+      <a href="images.html">Images</a>
+      <a href="videos.html">Videos</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a class="active" href="javascript:void(0)" class="dropbtn">Football</a>
+    <div class="dropdown-content">
+      <a class="active" href="teams.html">Teams</a>
+      <a  href="players.html">Players</a>
+    </div>
+  </li>
+  <li style="float:right"><a href="login.html">Login</a></li>
+  <li style="float:right"><a href="signup.html">Sign Up</a></li>
+  </ul>
+   </div>
+ <div class="data">
+            <h1 align="center" class="type">POPULAR TEAMS</h1>
+            <div class="players">
+                <table>
+                    <tr>
+                        <td><a href="https://www.instagram.com/fcbarcelona/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/5c0492f67c1c9b13fc9260f8bb1ac0fb/5B905120/t51.2885-19/s150x150/20902831_477206115986842_7005605501073358848_a.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/psg/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/28b720a18dbb4b8c5f340b2c28d96b03/5B8352FC/t51.2885-19/s150x150/18878914_230158997486952_7078420478234198016_a.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/liverpoolfc/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/bfb02735b85d4e2d5ef13fbae4bec81d/5B76A9D7/t51.2885-19/s150x150/29740363_519054611821891_4082499704863064064_n.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/manchesterunited/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/f55e417ecf36c41c1be9057f64e41507/5B76BDC7/t51.2885-19/s150x150/26869289_1755158991182652_2640219630685126656_n.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/mancity/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/ee5e3c3ddd91f534fd08b1aaf01454c0/5B63AA7D/t51.2885-19/s150x150/23967107_1781046015534035_6402181403647148032_n.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/fcbayern/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/4b9fd37759c0390153140047ea87cc32/5B815CEB/t51.2885-19/s150x150/19120497_137699173459975_8227449668729044992_a.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/juventus/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/f9c95690eac4b207c59a581a52f8a1bd/5B769D0D/t51.2885-19/s150x150/19534836_310885729381460_2074146054923616256_a.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/chelseafc/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/fb04e44aedc709569a913c248df1ae5b/5B95BBD4/t51.2885-19/s150x150/23969435_131963557512763_3634251869603233792_n.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/bvb09/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/a202dc417740440e1e67fd99b77e2e64/5B9A674D/t51.2885-19/s150x150/19122030_764244677101951_1066572844978143232_a.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/acmilan/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/e6947374e2e1d3bf9f531899763fc9fb/5B7C7F27/t51.2885-19/s150x150/28752652_1588488094612523_1544789613409730560_n.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/atleticodemadrid/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/fa47248f33963b8f833140edaa7d1544/5B80304A/t51.2885-19/s150x150/19534151_320426881741663_3380489383391002624_a.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/realmadrid/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/03e2ee5abf985d8f7ab14318b272b956/5B980815/t51.2885-19/s150x150/14262895_645769338925881_743045791_n.jpg"></a></td></tr>
+                </table>
+            </div>
+
+        </div>
+        
+     
+        
+ </body>
+</html>

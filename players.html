@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>OneFootball</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+.navbar{
+    top: 0;
+    position:relative;
+}
+ul {
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+}
+
+li {
+    float: left;
+    font-size: 20px;
+    
+}
+
+li:last-child {
+    border-right: none;
+    font-size: 20px;
+}
+
+li a , .dropbtn {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: green;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: green;
+}
+.active {
+    background-color: #4CAF50;
+}
+            
+            li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+}
+
+            
+
+    
+.q-box {
+    width:1360px;
+    padding: 10px;
+    border: 5px;
+    margin: 0;
+    background-color: #33ff33;
+    color: white;
+    align-content: center;
+    font-size: 40px;
+}
+            
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+    display: block;
+}
+        
+            
+            
+        body{
+            background-attachment: fixed;
+            margin: 0px;
+            background-repeat: no-repeat;
+            background-size: cover;
+                background-image: url(p.jpg);
+            }
+        
+        .data{
+            margin:2% 2%;
+            max-height: 33%;
+        }
+        .players{
+            
+            margin:2%;
+            overflow-x: auto;
+            border: 1px solid white;
+        }
+        table{
+            position: static;
+        }
+        .data .players a img{
+            border-radius: 100px;
+            margin: 20px;
+        }
+        .type{
+            width: auto;
+            margin: 0;
+            padding: 20px;
+            font-family: 'Oswald', sans-serif;
+            color: white;
+        }
+        
+        img:hover{
+            filter: grayscale(75%);
+            border: solid 2px white;
+        }
+        img{
+            animation-name: hovered;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes hovered{
+            from{transform:rotateY(0deg);}
+            to{transform: rotateY(360deg);}
+        }
+</style>
+    </head>
+    
+    <body>
+    <div class="navbar">    
+  <ul>
+   <li><a  href="index.html">OneFootball</a></li>
+  <li><a  href="home.html">Home</a></li>
+  <li><a href="news.html">News</a></li>
+  <li><a href="contact.html">Contact Us</a></li>
+  <li><a href="about.html">About</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Gallery</a>
+    <div class="dropdown-content">
+      <a href="images.html">Images</a>
+      <a href="videos.html">Videos</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a class="active" href="javascript:void(0)" class="dropbtn">Football</a>
+    <div class="dropdown-content">
+      <a href="teams.html">Teams</a>
+      <a class="active" href="players.html">Players</a>
+    </div>
+  </li>
+  <li style="float:right"><a href="login.html">Login</a></li>
+  <li style="float:right"><a href="signup.html">Sign Up</a></li>
+  </ul>
+   </div>
+        
+ <div class="data">
+            <h1 align="center" class="type">FORWARDS</h1>
+            <div class="players">
+                <table>
+                    <tr>
+                        <td><a href="https://www.instagram.com/leomessi/"><img src="https://instagram.fbom8-1.fna.fbcdn.net/vp/5e6cb24328913c77dfea1b83f76ea626/5B95101A/t51.2885-19/s150x150/19954949_2034459183451323_7136569748396965888_a.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/iamzlatanibrahimovic/"><img src="https://instagram.fbom8-1.fna.fbcdn.net/vp/367ecd50e5ca7abb97010811d749f03b/5B772E56/t51.2885-19/s150x150/21107666_881443542019636_5090097924403101696_a.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/mosalah22/"><img src="https://instagram.fbom8-1.fna.fbcdn.net/vp/d086f1f13d4cca6d5ab0c2197dde0a28/5B5B2867/t51.2885-19/s150x150/30601902_160776927932687_153615153223434240_n.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/neymarjr/"><img src="https://instagram.fbom8-1.fna.fbcdn.net/vp/80678ef8a7d6ab53101c7b2b9e89e53d/5B5FEE33/t51.2885-19/s150x150/26372769_384363682024613_3032694674201509888_n.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/iscoalarcon/"><img src="https://instagram.fbom8-1.fna.fbcdn.net/vp/ff8838550d887467f4f01501a32d42ea/5B7F37BE/t51.2885-19/s150x150/28434329_203042327095653_4111099415345758208_n.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/antogriezmann/"><img src="https://instagram.fbom8-1.fna.fbcdn.net/vp/e1d4c10444c388957d5597cc702aa4e6/5B5B96D7/t51.2885-19/s150x150/29092868_975467642603332_8815101155890692096_n.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/paulodybala//"><img src="https://instagram.fbom8-1.fna.fbcdn.net/vp/e1efc0ce53c57baad67406105ec0ca8e/5B5E7A03/t51.2885-19/s150x150/26295922_1995359197406585_4306176220044722176_n.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/m10_official/"><img src="https://instagram.fbom8-1.fna.fbcdn.net/vp/be13542a2cb701173bc16538324b99db/5B998AC3/t51.2885-19/s150x150/21910690_1845270839135784_3766280993938341888_n.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/alexis_officia1/"><img src="https://instagram.fbom8-1.fna.fbcdn.net/vp/e6db449717bd1286b06f14209c319f56/5B99CB46/t51.2885-19/s150x150/14072973_943063175819611_1886851570_a.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/bastianschweinsteiger/"><img src="https://instagram.fbom8-1.fna.fbcdn.net/vp/3f15099380679722d4f6065fb68bc773/5B931D87/t51.2885-19/s150x150/26225727_226851044524519_1716847162928660480_n.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/esmuellert/"><img src="https://instagram.fbom8-1.fna.fbcdn.net/vp/2942689b8a41e7253e605a328e57bf19/5B9599C7/t51.2885-19/s150x150/29090923_1866262603386127_5270037791177179136_n.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/_rl9/"><img src="https://instagram.fbom8-1.fna.fbcdn.net/vp/f01330d63362858cef0aeef231184dd2/5B7F0E0A/t51.2885-19/s150x150/21041277_163660897527666_6953578509222543360_a.jpg"></a></td></tr>
+                </table>
+            </div>
+
+             <h1 align="center" class="type">MIDFIELDERS</h1>
+            <div class="players">
+                <table>
+                    <tr>
+                        <td><a href="https://www.instagram.com/andresiniesta8/"><img src="https://instagram.fbom8-1.fna.fbcdn.net/vp/23b5ae3bac93404e4ee62882119274ad/5B9BA4F7/t51.2885-19/11809882_1612872405642477_1747600036_a.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/franckribery7/"><img src="https://instagram.fbom8-1.fna.fbcdn.net/vp/5f8d7c013afe34971c09bfb2f4689676/5B635BF3/t51.2885-19/s150x150/27578718_337771266717503_2312593860284383232_n.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/10aguerosergiokun/"><img src="https://instagram.fbom8-1.fna.fbcdn.net/vp/f4005cd413d1c2c42e1290ab14e724ac/5B5D87A4/t51.2885-19/s150x150/26065799_234993037040375_7433137566603280384_n.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/sergiroberto/"><img src="https://instagram.fbom8-1.fna.fbcdn.net/vp/184ec2c011c60f5cf6f6f8f8c6731954/5B67CDE3/t51.2885-19/s150x150/12141947_1682327408677624_113490634_a.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/cescf4bregas/"><img src="https://instagram.fbom8-1.fna.fbcdn.net/vp/8e2e743a3c640295c9668a7d7da035c4/5B97DCFB/t51.2885-19/s150x150/22802592_278503812668869_6049551274246930432_n.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/_pedro17_/"><img src="https://instagram.fbom8-1.fna.fbcdn.net/vp/a3a59bcf8e700ade895905a57ee08c87/5B7FEB2B/t51.2885-19/s150x150/26871897_186904105245561_8676518104735416320_n.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/davidvilla/"><img src="https://instagram.fbom8-1.fna.fbcdn.net/vp/649e0b794345e69b443b09a0b5b85ca0/5B5D53D5/t51.2885-19/s150x150/26869766_181305909309826_830112527143665664_n.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/lukam10/"><img src="https://instagram.fbom8-1.fna.fbcdn.net/vp/bbd08f6c44d61640fedfbef517a999e7/5B64C199/t51.2885-19/s150x150/30601599_169983493717162_1307855302984466432_n.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/david21lva/"><img src="https://instagram.fbom8-1.fna.fbcdn.net/vp/c8de48371af2fcd72db884ef4c98e50e/5B7F38D0/t51.2885-19/s150x150/14718551_1791677174422236_191264866604941312_a.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/sterling7/"><img src="https://instagram.fbom8-1.fna.fbcdn.net/vp/9d375d0300ba3633b71539d540c61562/5B9BFB7E/t51.2885-19/s150x150/20184210_1909773849271710_4046124875213963264_a.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/kevindebruyne/"><img src="https://instagram.fbom8-1.fna.fbcdn.net/vp/c4d78b26a3ce5edd36fd95a5c099bd24/5B61E584/t51.2885-19/s150x150/26354699_177334686349341_5238723038593155072_n.jpg"></a></td>
+                </table>
+            </div>
+
+             <h1 align="center" class="type">DEFENDERS</h1>
+            <div class="players">
+                <table>
+                    <tr class="xyz">
+                        <td><a href="https://www.instagram.com/carles5puyol/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/ca7ad9982a367051d78ff09a2f9e0ed1/5B99CCA8/t51.2885-19/s150x150/19534001_1287255291387174_1940564261256298496_a.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/3gerardpique/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/99a45450f11d3a8830792c89b8ffd800/5B76F835/t51.2885-19/s150x150/20214322_1391739027610650_5985684797022797824_a.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/sr4oficial/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/88bb0c16796128124170b3ad8a37461a/5B7C0E0C/t51.2885-19/s150x150/20393658_1881810325402181_215761770923425792_a.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/marcelotwelve/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/c88928ba64142d7cd061f09c3fabdd45/5B912AD5/t51.2885-19/s150x150/21296381_319245285214936_1087532336922230784_a.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/samumtiti/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/915147987b6bdc90bcf10e4b9f56aa83/5B957709/t51.2885-19/s150x150/26152093_410881386016739_3549015533489750016_n.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/jordialbaoficial/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/15138468a6cada9536c8763c7d83bfff/5B8357DA/t51.2885-19/s150x150/26066714_175410243066074_8720371352915148800_n.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/koscielny_official6/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/98e54e1d4124ce19de3a258e80fcd8d0/5B62A751/t51.2885-19/s150x150/29093057_1620343488083736_5829710873530204160_n.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/mascherano14/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/232af1d371f5eac188ee63537430f53e/5B6109FB/t51.2885-19/s150x150/11950746_918411978238439_1770064317_a.jpg"></a></td>
+                        
+                </table>
+            </div>
+     
+     <h1 align="center" class="type">GOALKEEPERS</h1>
+            <div class="players">
+                <table>
+                    <tr class="xyz">
+                        <td><a href="https://www.instagram.com/mterstegen1/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/b187badb7219db76ebcc008db302652f/5B9B796B/t51.2885-19/s150x150/19932940_1121201388023493_6395952507067039744_a.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/d_degeaofficial/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/c79cd2718c946d7dd5fe28f10c4ab2b7/5B95C075/t51.2885-19/s150x150/17266285_399723660413284_8490310613661122560_a.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/manuelneuer/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/c2ec6c28dfa75ba04212a6b3d8c9bee6/5B9A7BBE/t51.2885-19/s150x150/20180859_451131595256137_8310017730640084992_a.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/claudiobravo1/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/487de5bf2ebbb25e0c85fc063e517441/5B8FCD7F/t51.2885-19/s150x150/924094_154069371604961_650470830_a.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/ikercasillas/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/7778177054e10697d206e876c5296a96/5B96E5E6/t51.2885-19/s150x150/27878012_401039553700040_6783965594958954496_n.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/edwinvandersar1/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/b754715cf3fbe34b58419477e8c092f8/5B97D148/t51.2885-19/s150x150/13183423_1724380614499199_227419051_a.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/22mignolet22/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/7507d6b538710dd82a1099187027361c/5B5C9EC7/t51.2885-19/s150x150/25016801_920311134794051_1088749436164636672_n.jpg"></a></td>
+                        <td><a href="https://www.instagram.com/kasperschmeichel/"><img src="https://instagram.fbom14-1.fna.fbcdn.net/vp/da68fd4d18177b8a39234055b92447ea/5B816645/t51.2885-19/s150x150/15259112_699775170190733_1115061110194569216_a.jpg"></a></td>
+                       
+                </table>
+            </div>
+        </div>
+        
+        
+        
+ </body>
+</html>
